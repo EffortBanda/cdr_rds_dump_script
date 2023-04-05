@@ -392,7 +392,7 @@ done
 #
 #
 gzip $dump_file_name
-mv ./*.gz /var/www/BHT-EMR-API/log/
+mv -f ./*.gz /var/www/BHT-EMR-API/log/
 #####################################
 #updating last generation date file #
 #####################################
